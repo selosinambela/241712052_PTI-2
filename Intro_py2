@@ -28,7 +28,7 @@ for baris in range(5):
         print("*",end="")
         print()
 
-print ("==============")
+print("==============")
 
 # While iteration -> need condition 
 baris2 = 0
