@@ -1,0 +1,51 @@
+# Dekalrasi variabel
+a = float(10.5)
+b = 5
+c = a + b
+print("Hello World")
+
+# Operasi (operation) -> tambah (+), kurang, (-)bagi(/), kali (*), Modulo(%), pangkat(**)
+a = 10
+b = 4
+perkalian = a * b
+pembagian = a / b
+pengurangan = a - b
+modulo = a % b
+pangkat = a ** b
+
+print(perkalian)
+print(pembagian)
+print(pengurangan)
+print(modulo)
+print(pangkat)
+
+#pengulangan =>looping
+#For statement
+#index data =>dimulai
+
+for baris in range(5):
+    for kolom in range(5):
+        print("*",end="")
+        print()
+
+print ("==============")
+
+# While iteration -> need condition 
+baris2 = 0
+tengah = 5
+while baris2 < 5 :
+    kolom2 = 0
+    if(baris2 % 2 == 1):
+        while kolom2 < 5:
+            if(kolom2 == int(round(tengah/2))):
+                print("*",end="")
+            else:
+                print(" ",end="")
+            kolom2 += 1 
+    else:
+        while kolom2 < 5 :
+            print("*",end="")
+            kolom2 += 1
+    print()
+    baris2 += 1
+
